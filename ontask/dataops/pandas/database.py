@@ -83,7 +83,6 @@ def create_db_engine(
         connect_args=
             {
                 'connect_timeout': 300,
-                'client_encoding': 'utf8',
             }
         )
 
